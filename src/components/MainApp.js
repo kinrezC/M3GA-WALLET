@@ -8,7 +8,7 @@ const MainApp = () => {
     context.setFirstValidConnector(['MetaMask']);
   }, []);
 
-  return <div>{context.account}</div>;
+  return <div>{'LETS FUCKING RIDE' + context.account}</div>;
 };
 
 export default MainApp;
